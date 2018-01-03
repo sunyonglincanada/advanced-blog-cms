@@ -10,3 +10,11 @@
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Manage Dashboard css
+@import "manage";
+
+// Other SCSS Files
+@import "overrides";
+@import "helpers";
+@import "styles";
