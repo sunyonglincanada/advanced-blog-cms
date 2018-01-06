@@ -1,5 +1,7 @@
 @extends('layouts.manage')
 
-@section('content')
+@section('manage-content')
+
+@include('_includes.nav.manage')
 
 @endsection

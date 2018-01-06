@@ -19,10 +19,8 @@
 
 @include('layouts.app')
 
-@include('_includes.nav.manage')
-
-<div id="app">
-    @yield('content')
+<div id="app-management">
+    @yield('manage-content')
 </div>
 
 <!-- Scripts -->
