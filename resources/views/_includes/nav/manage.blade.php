@@ -17,6 +17,13 @@
                 </ul>
             </li>
             <li>
+                <a href="{{route('posts.index')}}">
+                    <i class="glyphicon glyphicon-th-list"></i>
+                    Blog Posts
+                </a>
+            </li>
+
+            <li>
                 <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
                     <i class="glyphicon glyphicon-duplicate"></i>
                     Administration
